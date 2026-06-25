@@ -19,8 +19,36 @@ header{
 .navgation-header ul{
     display: flex;
     gap: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navgation-header ul li a{
+    text-decoration: none;    
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-Regular-Body2);
+    font-weight: var(--font-weight-Regular-Body2);
+}
+
+.color-navgation ul li a{
+    color: var(--color-Neutral-Black);
+
 }
 
 .navgation-header-login ul{
     gap: 14px;
+    font-size: var(--font-size-Medium-Body3);
+    font-weight: var(--font-weight-Medium-Body3);
+}
+
+.anchor-login{
+    color: var(--color-Primary-2);
+}
+
+.btn-login{
+    padding: 10px 20px;    
+    color: #ffffff;
+    background-color: var(--color-Primary-2);
+    border-radius: 6px;
+
 }
